@@ -22,7 +22,7 @@ int main() {
 	Renderer renderer = window->renderer;
 
 	// Test objekt
-	GameObject gameobject = GameObject(50, 50, 50, 50, Color::TextToColor("red"));
+	GameObject gameobject = GameObject(300, 50, 100, 50, Color::TextToColor("red"));
 	renderer.AddObjectToRenderList(&gameobject);
 
 	// Første render
